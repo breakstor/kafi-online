@@ -1,13 +1,15 @@
 {
-    "name": "kafi_online",
-    "short_name": "kafi_online",
+    "name": "كافي أونلاين",
+    "short_name": "كافي",
     "start_url": ".",
     "display": "standalone",
-    "background_color": "#0175C2",
-    "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "background_color": "#ffffff",
+    "theme_color": "#ffffff",
+    "description": "تسوق بسهولة من متجرك المفضل",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
+    "lang": "ar",
+    "dir": "rtl",
     "icons": [
         {
             "src": "icons/Icon-192.png",
