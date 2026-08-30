@@ -27500,7 +27500,7 @@ s=p}for(;;)switch(s){case 0:p=4
 l=$.ie().b
 l===$&&A.a()
 s=7
-return A.w(l.BK("categories").Nr("id, name").pc("business_id",a).awv("name"),$async$alZ)
+return A.w(l.BK("product_categories").Nr("id, name").pc("business_id",a).awv("name"),$async$alZ)
 case 7:n=c
 l=A.eM(n,!0,t.a)
 q=l
