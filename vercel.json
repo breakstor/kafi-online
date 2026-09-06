@@ -2,6 +2,7 @@
   "cleanUrls": false,
   "trailingSlash": false,
   "routes": [
+    { "src": "/api/manifest", "dest": "/api/manifest.js" },
     { "handle": "filesystem" },
     { "src": "/.*", "dest": "/index.html", "status": 200 }
   ]
