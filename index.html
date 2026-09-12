@@ -23,6 +23,7 @@
   <meta property="og:title" id="og-title" content="كافي أونلاين">
   <meta property="og:description" id="og-desc" content="تسوق بسهولة واطلب الآن">
   <meta property="og:image" id="og-image" content="icons/Icon-512.png">
+  <meta property="og:url" id="og-url" content="https://kaffii.store">
 
   <script>
     (async function() {
@@ -96,6 +97,9 @@
         const ogDesc = document.getElementById('og-desc');
         if (ogDesc) ogDesc.setAttribute('content', desc);
 
+        const ogUrl = document.getElementById('og-url');
+        if (ogUrl) ogUrl.setAttribute('content', 'https://kaffii.store/' + storeSlug);
+
         // Client-side dynamic manifest fallback (via Blob / Data URL)
         const icons = logoUrl
           ? [
@@ -137,6 +141,30 @@
       }
     })();
   </script>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      position: fixed;
+      overscroll-behavior: none;
+      overscroll-behavior-y: none;
+      overscroll-behavior-x: none;
+      touch-action: pan-y;
+      -webkit-overflow-scrolling: touch;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+    flutter-view, flt-glass-pane {
+      width: 100% !important;
+      height: 100% !important;
+      overscroll-behavior: none !important;
+      overscroll-behavior-y: none !important;
+      touch-action: pan-y !important;
+    }
+  </style>
 </head>
 <body>
   <script src="flutter_bootstrap.js" async></script>
