@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Solution>
+	<Configurations>
+		<BuildType Name="Debug"/>
+		<BuildType Name="Profile"/>
+		<BuildType Name="Release"/>
+		<Platform Name="x64"/>
+	</Configurations>
+	<Project Path="ALL_BUILD.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="3002e44d-47b5-354a-98ba-90bf73ae5fdb" DefaultStartup="true">
+		<BuildDependency Project="../ZERO_CHECK.vcxproj"/>
+		<BuildDependency Project="kashirak.vcxproj"/>
+	</Project>
+	<Project Path="INSTALL.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="f4dfda0f-d353-33bb-b0a4-dfa269dfd86b">
+		<BuildDependency Project="ALL_BUILD.vcxproj"/>
+		<BuildDependency Project="../ZERO_CHECK.vcxproj"/>
+		<Build Solution="Debug|*" Project="false"/>
+		<Build Solution="Profile|*" Project="false"/>
+		<Build Solution="Release|*" Project="false"/>
+	</Project>
+	<Project Path="../ZERO_CHECK.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="8eb8b8a3-1ef0-328f-8de7-ba181990d50c"/>
+	<Project Path="../plugins/app_links/app_links_plugin.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="1e055911-dda1-3f9b-91d3-982057ef2c1c">
+		<BuildDependency Project="../ZERO_CHECK.vcxproj"/>
+		<BuildDependency Project="../flutter/flutter_assemble.vcxproj"/>
+		<BuildDependency Project="../flutter/flutter_wrapper_plugin.vcxproj"/>
+	</Project>
+	<Project Path="../plugins/audioplayers_windows/audioplayers_windows_plugin.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="522e38ba-4737-38df-9706-539aa9d2c7f1">
+		<BuildDependency Project="../ZERO_CHECK.vcxproj"/>
+		<BuildDependency Project="../flutter/flutter_assemble.vcxproj"/>
+		<BuildDependency Project="../flutter/flutter_wrapper_plugin.vcxproj"/>
+	</Project>
+	<Project Path="../plugins/desktop_multi_window/desktop_multi_window_plugin.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="b4b4ec75-eb97-33d3-9a43-a0c7e548d341">
+		<BuildDependency Project="../ZERO_CHECK.vcxproj"/>
+		<BuildDependency Project="../flutter/flutter_assemble.vcxproj"/>
+		<BuildDependency Project="../flutter/flutter_wrapper_app.vcxproj"/>
+		<BuildDependency Project="../flutter/flutter_wrapper_plugin.vcxproj"/>
+	</Project>
+	<Project Path="../plugins/file_selector_windows/file_selector_windows_plugin.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="49f191d2-2cac-3e39-8e75-0c64274cbc00">
+		<BuildDependency Project="../ZERO_CHECK.vcxproj"/>
+		<BuildDependency Project="../flutter/flutter_assemble.vcxproj"/>
+		<BuildDependency Project="../flutter/flutter_wrapper_plugin.vcxproj"/>
+	</Project>
+	<Project Path="../flutter/flutter_assemble.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="d38abd88-1b4f-38c9-af7a-32b058289f8b">
+		<BuildDependency Project="../ZERO_CHECK.vcxproj"/>
+	</Project>
+	<Project Path="../flutter/flutter_wrapper_app.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="e6f21b3d-0f52-3cd4-8c52-fb7251dae514">
+		<BuildDependency Project="../ZERO_CHECK.vcxproj"/>
+		<BuildDependency Project="../flutter/flutter_assemble.vcxproj"/>
+	</Project>
+	<Project Path="../flutter/flutter_wrapper_plugin.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="d2084c27-20e0-3566-b662-a477b9bd7324">
+		<BuildDependency Project="../ZERO_CHECK.vcxproj"/>
+		<BuildDependency Project="../flutter/flutter_assemble.vcxproj"/>
+	</Project>
+	<Project Path="kashirak.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="0356e43c-b079-3bcd-b7f9-db04618c69bf">
+		<BuildDependency Project="../ZERO_CHECK.vcxproj"/>
+		<BuildDependency Project="../plugins/app_links/app_links_plugin.vcxproj"/>
+		<BuildDependency Project="../plugins/audioplayers_windows/audioplayers_windows_plugin.vcxproj"/>
+		<BuildDependency Project="../plugins/desktop_multi_window/desktop_multi_window_plugin.vcxproj"/>
+		<BuildDependency Project="../plugins/file_selector_windows/file_selector_windows_plugin.vcxproj"/>
+		<BuildDependency Project="../flutter/flutter_assemble.vcxproj"/>
+		<BuildDependency Project="../flutter/flutter_wrapper_app.vcxproj"/>
+		<BuildDependency Project="../plugins/permission_handler_windows/permission_handler_windows_plugin.vcxproj"/>
+		<BuildDependency Project="../plugins/printing/printing_plugin.vcxproj"/>
+		<BuildDependency Project="../plugins/screen_retriever_windows/screen_retriever_windows_plugin.vcxproj"/>
+		<BuildDependency Project="../plugins/share_plus/share_plus_plugin.vcxproj"/>
+		<BuildDependency Project="../plugins/url_launcher_windows/url_launcher_windows_plugin.vcxproj"/>
+		<BuildDependency Project="../plugins/window_manager/window_manager_plugin.vcxproj"/>
+	</Project>
+	<Project Path="../plugins/permission_handler_windows/permission_handler_windows_plugin.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="ad8b689d-89b9-3c65-b307-a3759677ad6b">
+		<BuildDependency Project="../ZERO_CHECK.vcxproj"/>
+		<BuildDependency Project="../flutter/flutter_assemble.vcxproj"/>
+		<BuildDependency Project="../flutter/flutter_wrapper_plugin.vcxproj"/>
+	</Project>
+	<Project Path="../plugins/printing/printing_plugin.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="cc5fb31b-595e-3ee5-9b9a-00ec5b603874">
+		<BuildDependency Project="../ZERO_CHECK.vcxproj"/>
+		<BuildDependency Project="../flutter/flutter_assemble.vcxproj"/>
+		<BuildDependency Project="../flutter/flutter_wrapper_plugin.vcxproj"/>
+	</Project>
+	<Project Path="../plugins/screen_retriever_windows/screen_retriever_windows_plugin.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="9bac9ffc-fca0-3014-b758-0d8d2455eda3">
+		<BuildDependency Project="../ZERO_CHECK.vcxproj"/>
+		<BuildDependency Project="../flutter/flutter_assemble.vcxproj"/>
+		<BuildDependency Project="../flutter/flutter_wrapper_plugin.vcxproj"/>
+	</Project>
+	<Project Path="../plugins/share_plus/share_plus_plugin.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="52a5e1a7-fe39-35d0-95bb-33d572bcbe6a">
+		<BuildDependency Project="../ZERO_CHECK.vcxproj"/>
+		<BuildDependency Project="../flutter/flutter_assemble.vcxproj"/>
+		<BuildDependency Project="../flutter/flutter_wrapper_plugin.vcxproj"/>
+	</Project>
+	<Project Path="../plugins/url_launcher_windows/url_launcher_windows_plugin.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="a3c10519-a9ca-3adc-a528-e6aee78e2f8b">
+		<BuildDependency Project="../ZERO_CHECK.vcxproj"/>
+		<BuildDependency Project="../flutter/flutter_assemble.vcxproj"/>
+		<BuildDependency Project="../flutter/flutter_wrapper_plugin.vcxproj"/>
+	</Project>
+	<Project Path="../plugins/window_manager/window_manager_plugin.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="11485e31-754c-3919-be3d-99f91048025f">
+		<BuildDependency Project="../ZERO_CHECK.vcxproj"/>
+		<BuildDependency Project="../flutter/flutter_assemble.vcxproj"/>
+		<BuildDependency Project="../flutter/flutter_wrapper_plugin.vcxproj"/>
+	</Project>
+</Solution>
